@@ -1,14 +1,9 @@
-
-# RESTful Web Service Implementation + Docker
-## Introduction
+# Introduction
 
 We Group of two Shraddha Thanekar and Prajakta Jathar designed and implmented RESTful web service which will displays records of the customers. 
 
 There is a navigation bar that will direct to respective pages which includes Home, Order List and Products To fetch the desired results. Home page include customers list with information of the customer's name, product id and price of the item. Order list page fetch the data of orders including order id, status, it's tracking id information and the date on which the order is placed.
  
-# Presentation 
-
-https://drive.google.com/file/d/16ib5yAS4iWAVbBHQi7B2C54t1METdYEd/view?usp=sharing
 
 # Steps to run the application are as under : -
 1. Click on the Clone the file and download the zip
@@ -22,6 +17,3 @@ https://drive.google.com/file/d/16ib5yAS4iWAVbBHQi7B2C54t1METdYEd/view?usp=shari
 9. Run the command docker build -t project-node .
 10. Run the command docker run -d -p 1200:1200 project-node
 11. Copy the IP address from docker toolbox and paste in browser alongwith assigned port number.
-
-
-The screencasting vidoe of the application : https://screencast-o-matic.com/watch/cYle0INtY8
